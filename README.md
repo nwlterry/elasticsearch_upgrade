@@ -1,3 +1,12 @@
+## Layout
+
+```
+docs/hostname-case-change.md
+docs/information.md
+GROUP.md
+README.md          # primary notes on host.hostname case
+```
+
 Thank you for the **critical clarification**:
 
 > **"On Linux hosts, the actual hostname is uppercase (e.g., `SERVER01`), but in Elastic Agent 8.14.3, `host.hostname` was appearing lowercase in Elasticsearch. After upgrading to 8.18.4, it now shows uppercase (raw)."**
